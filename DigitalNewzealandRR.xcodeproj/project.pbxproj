@@ -7,14 +7,14 @@
     objects = {
 
 /* Begin PBXAggregateTarget section */
-		AAEC15EAD7C0FE4A83A6BA9B /* Framework */ = {
+		AAF7B1B91FD070478B9C83D8 /* Framework */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AA0C6493D94F6548AAB05E0C /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildConfigurationList = AAF15963EF1C3B44DE874FF9 /* Build configuration list for PBXAggregateTarget "Framework" */;
 			buildPhases = (
-				AA23E52E818F854F068E29F8 /* MultiBuild Framework */,
+				AAA82E0C34C69145CBBF47D1 /* MultiBuild Framework */,
 			);
 			dependencies = (
-				AA00CBC8E8A45A42EEAB46C1 /* PBXTargetDependency */,
+				AAF4B7A6C9DF274C3B9BE561 /* PBXTargetDependency */,
 			);
 			name = Framework;
 			productName = Framework;
@@ -22,69 +22,69 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-        AA03337C3A19B54784BDF5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA768B47AD77914FDA8A33E2 /* Foundation.framework */; };
-        AA9B54C24451E04DBA98B53D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA768B47AD77914FDA8A33E2 /* Foundation.framework */; };
-        AACDA44555A2394075AB9388 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4ECFD8E9DDC49F6934107 /* UIKit.framework */; };
-        AAAEFBF5B92BAE44EF9615FB /* libDigitalNewzealandRR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AACFB2A8D330364CCC950336 /* libDigitalNewzealandRR.a */; };
-        AAD0831B0907B94395A9B292 /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC7103E3EE6CC4BA3AF27BD /* APIHelper.m */; };
-        AA5F27DDF19A834EE38D7317 /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC3ADFDC5065444EA0B064 /* APIError.m */; };
-        AA86C0108619EA4062BB293D /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0C941311A1FC449D932FCD /* Configuration.m */; };
-		AA021E202C6508428E80D2AE /* SearchRecordInput.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9DC079D0914D4663B25C34 /* SearchRecordInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA2AF3A24B4DF949AA8CD391 /* SearchRecordInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AA18F287F7622543E9B95F17 /* SearchRecordInput.m */; };
-		AA26A86C1722EA4EA294F9F9 /* GetMetadataInput.h in Headers */ = {isa = PBXBuildFile; fileRef = AA36B2822E69324311B6B9E9 /* GetMetadataInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAB7821CD1693E4B33A2537B /* GetMetadataInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AA391442A38C5442C69C9C01 /* GetMetadataInput.m */; };
-		AA852EAA9FB354412DBC606B /* ResultsCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD3815BB375104468A1520F /* ResultsCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA5AF82B94C43D44A8BACAA6 /* ResultsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AE13F6886144E82BA9265 /* ResultsCollection.m */; };
-		AAB5420A294AF147F6819771 /* CollectionSearchRecords.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB79626CC7F0243BD8C1DA6 /* CollectionSearchRecords.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAB3986AE63DF1477DBFD437 /* CollectionSearchRecords.m in Sources */ = {isa = PBXBuildFile; fileRef = AADBDC0F6B05374667B31EE9 /* CollectionSearchRecords.m */; };
-		AA10863B94457B416FAF608B /* SearchRecordController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA587643878B6C43CD9D1A26 /* SearchRecordController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA9AF0E1574CF343E18579CE /* SearchRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09C3EF78E3D64E59AE79D5 /* SearchRecordController.m */; };
-		AAFC4B6E83E2E14ED7BA5C39 /* MetadataController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5E5760BCB03A4C788ED555 /* MetadataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA9F6CC30E8EEC498A83DCF6 /* MetadataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FEE9D2E239949EE985AF0 /* MetadataController.m */; };
-		AA01D6A783FA6B41EB942B80 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AABBA40691F1F34494802B7A /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAEF396DBEF58A4FA5961E26 /* APIError.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3BC5853FE2C24C8EBE4112 /* APIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA2DB7B9639A444099829E60 /* APIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE577B7DAE9AD471FB41541 /* APIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA335E7CDAA7BE4FB78C4370 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4E0437B336F249AD9EC697 /* libPods.a */; };
-		AA74B08891CF7B4707A7E2A3 /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9B68B58725C5422D80A43B /* libJSONModel.a */; };		
-		AAA6F7389780D24864A4C2B2 /* libUnirest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA95A3430FAC334E439787CE /* libUnirest.a */; };
-		AA9A4D54132C544D51A0E3FB /* IHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AABFF68F12AC3548978DA4FE /* IHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAEA2898E1B2BB4F8B83907D /* HttpContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AA977110F3F4E44A3C90FE4F /* HttpContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA0298CF53D9C1411F80AEA1 /* HttpContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AA689811C8CD2049898EBBA1 /* HttpContext.m */; };
+        AAC689F46754DB44A98A3309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6E0AF2268DC247A5A6E530 /* Foundation.framework */; };
+        AA1BE9865A7B084348B1D3F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6E0AF2268DC247A5A6E530 /* Foundation.framework */; };
+        AA864A9B171FA340A4B8AC65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE3DE7555182149659AAAF9 /* UIKit.framework */; };
+        AA956C468EBD7F491E83DDB2 /* libDigitalNewzealandRR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA81FCAF529EE745E3B7B0A0 /* libDigitalNewzealandRR.a */; };
+        AA1467AFDAB6154D0E8A0CAC /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD467C02066394ECC80B994 /* APIHelper.m */; };
+        AA179AD3FAC466491D9B603C /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = AA527EAD0961304AF0B91908 /* APIError.m */; };
+        AA23801E866FB34CBAB5E0C2 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7A197FAA2EC24E35B68A5B /* Configuration.m */; };
+		AAFBA7DC1148C44CFF9E361A /* SearchRecordInput.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE85A984B8F5C4B188DAE3E /* SearchRecordInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6786FC8391E34BFA8D9108 /* SearchRecordInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AA99DC171A87844863807915 /* SearchRecordInput.m */; };
+		AA4526352644114E1DACAFD5 /* GetMetadataInput.h in Headers */ = {isa = PBXBuildFile; fileRef = AA663A72D382E74DA0BE5A4A /* GetMetadataInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC55B140997C0409AA7B516 /* GetMetadataInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD1F5BB515E24663B0FE29 /* GetMetadataInput.m */; };
+		AA4ABA1F654AE74F6B810478 /* ResultsCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = AA62237C8F61394EBFA9E46F /* ResultsCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAEA5ED36BD0CD4CCC8606C9 /* ResultsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB98F30BC20994B099C6173 /* ResultsCollection.m */; };
+		AAE954C5F1EF7D47AEB2DBFD /* CollectionSearchRecords.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD9A8951BD4454D24B1C1F2 /* CollectionSearchRecords.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA953D28BE9E304CC2A1A136 /* CollectionSearchRecords.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA861623ACF71489A8FC72B /* CollectionSearchRecords.m */; };
+		AA065D90424D244498894D91 /* SearchRecordController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3AED8EF32BF8470BA945CD /* SearchRecordController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAFF0429A01D504EC6A611C8 /* SearchRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA59F1296FA7D04557ADD620 /* SearchRecordController.m */; };
+		AA47B6B5562BF24845942F33 /* MetadataController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF0A301CE57D14C1B96B3E2 /* MetadataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD9858EF285CB4E5D82F18C /* MetadataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA670249FF2E874818B01D11 /* MetadataController.m */; };
+		AAF7EEAB2D494F4E2EB9EEC7 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAD2AD287DE4C4357BA536F /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF0D5BD13CACD4F26B5EEBB /* APIError.h in Headers */ = {isa = PBXBuildFile; fileRef = AA17D2112FBCFD42F0A233D6 /* APIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF5F518F9E14D4821934AF3 /* APIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF83D1EA18C0944FBBF7EE0 /* APIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD52BC42DC09346CA805633 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA13766E4527943B3BE0A9C /* libPods.a */; };
+		AA029BE43A4F3D424EBA6DF5 /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEA851F0CB61345A290C75B /* libJSONModel.a */; };		
+		AA0D0A003448FC4FF29BD1EC /* libUnirest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA3B65A2777AA4BA0B9EF10 /* libUnirest.a */; };
+		AAC560BCDE4B074BD595F3D5 /* IHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7CA9A5843AFC4730A7267A /* IHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA688EA34E80A6400CA54A60 /* HttpContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6AD8E22CE83E4B8A9403A2 /* HttpContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA153D4B02F964BFFAD03C2 /* HttpContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AACD032C87D6B1403D8A6D7A /* HttpContext.m */; };
 
-		AA7A475F5F1D8241529894DD /* UnirestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AACDCB71E403184BAAB0633E /* UnirestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA3C42C41968234ACB8C52B5 /* UnirestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A506F2EDDBE46F6B92921 /* UnirestClient.m */; };
-		AA0296401D190A4E849CF110 /* HttpBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA54B79D885D104D0BB26F62 /* HttpBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA8B08871A145A406DA36F10 /* HttpBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AADB3F23AD0CF947329311CF /* HttpBodyRequest.m */; };
-		AADDCDD80123B4447C9CDF5B /* HttpMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB8E8697C388A4767A2059F /* HttpMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAE453144A23EB4F0BA8A1BF /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA99BF28366712418386A433 /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF75161F76D534064B221C5 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A3B030F05A4472B8D5B5C /* HttpRequest.m */; };
-		AA433DE57D5B5F4ED9859B77 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5131B5EAAA984CE6883CF1 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA15A8247E48CA465AB0CE71 /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA12B901710C6448C08DD6E4 /* HttpResponse.m */; };
-		AA5266CD75BF92410D9B3B8C /* HttpStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0B80213A93244ED3BC5BD4 /* HttpStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA4F095AAC3B1F4FDBA9883D /* HttpStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA766DB3DFC7C04C52862689 /* HttpStringResponse.m */; };
-		AA717ABE725E604DF788CA4A /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4D7380FAFF0F48A5AA302C /* BaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA640383271ABE453CA1EEA0 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF56D815D6034F938FE0EF /* BaseController.m */; };
+		AA50A1FC2645DC4334B6A3BC /* UnirestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEBD8D4FC8A8544F7B107C5 /* UnirestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA403BC588C7BE45AB871BFF /* UnirestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A0B48B980524023A82B6E /* UnirestClient.m */; };
+		AA35BCA10FA694448C8D105C /* HttpBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA471B59CB7EBE4961A8EA40 /* HttpBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA9798433B20C94F1E97EF2F /* HttpBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA68B810E6AF74DBD8EB252 /* HttpBodyRequest.m */; };
+		AA42A758CA4A674434B3C010 /* HttpMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2F4DE29DFF0A4E22AB96E9 /* HttpMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA8ABE96F4266845B8A595B6 /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD981F4B4BA8549A6A173C0 /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA74F29EBB57BF4FF49203F7 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA038543B87D054787926D6E /* HttpRequest.m */; };
+		AAA2047354D15F48B1B984E6 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD0AA2170523C4EC5B11CC3 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5470019E363447F1AA1747 /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA093903902841406D9848DE /* HttpResponse.m */; };
+		AA60A541B501B143598BAE45 /* HttpStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0386216A555242C9AEA069 /* HttpStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AADCBB53092E8844A094B02C /* HttpStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA64B8C2B1694445828A962B /* HttpStringResponse.m */; };
+		AA32064A84D1F5437DA589CA /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA74343CBB2F70429EA437E4 /* BaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA25596FB905E54D1F8C98D6 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB797A2526A66495389DD5F /* BaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA79F5F6B44233442FAE25B9 /* PBXContainerItemProxy */ = {
+		AA35E12FD3D7C34967AC5E21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AA5DA3E4689FAC4C9689B6AF /* Project object */;
+			containerPortal = AAC9E195A7931D44B78A1681 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AAE17DE5AF9DA64BFE8540A7;
+			remoteGlobalIDString = AA1966C4B7671B4AB6A5BC19;
 			remoteInfo = DigitalNewzealandRR;
 		};
-        AA79F5F6B44233442FAE25B9 /* PBXContainerItemProxy */ = {
+        AA35E12FD3D7C34967AC5E21 /* PBXContainerItemProxy */ = {
             isa = PBXContainerItemProxy;
-            containerPortal = AAAE3FCD3CDE5346C0B9E5F9 /* Project object */;
+            containerPortal = AAC6E8C328D32949B3B88911 /* Project object */;
             proxyType = 1;
-            remoteGlobalIDString = AAE17DE5AF9DA64BFE8540A7;
+            remoteGlobalIDString = AA1966C4B7671B4AB6A5BC19;
             remoteInfo = DigitalNewzealandRR;
         };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-        AADB7E43DCAA62401AA64353 /* CopyFiles */ = {
+        AA6C2AE549536F4A07AD45F5 /* CopyFiles */ = {
             isa = PBXCopyFilesBuildPhase;
             buildActionMask = 2147483647;
             dstPath = "include/$(PRODUCT_NAME)";
@@ -96,198 +96,198 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-        AACFB2A8D330364CCC950336 /* libDigitalNewzealandRR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDigitalNewzealandRR.a; sourceTree = BUILT_PRODUCTS_DIR; };
-        AA768B47AD77914FDA8A33E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-        AAC6EEEAB8647F4227B70244 /* DigitalNewzealandRR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DigitalNewzealandRR-Prefix.pch"; sourceTree = "<group>"; };
-        AAA4ECFD8E9DDC49F6934107 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-        AAC7103E3EE6CC4BA3AF27BD /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
-        AAE577B7DAE9AD471FB41541 /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };		
-        AABC3ADFDC5065444EA0B064 /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
-        AA3BC5853FE2C24C8EBE4112 /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
-        AA0C941311A1FC449D932FCD /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
-        AABBA40691F1F34494802B7A /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
-		AA9DC079D0914D4663B25C34 /* SearchRecordInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchRecordInput.h; path = Models/SearchRecordInput.h; sourceTree = "<group>"; };
-		AA18F287F7622543E9B95F17 /* SearchRecordInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchRecordInput.m; path = Models/SearchRecordInput.m; sourceTree = "<group>"; };
-		AA36B2822E69324311B6B9E9 /* GetMetadataInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetMetadataInput.h; path = Models/GetMetadataInput.h; sourceTree = "<group>"; };
-		AA391442A38C5442C69C9C01 /* GetMetadataInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetMetadataInput.m; path = Models/GetMetadataInput.m; sourceTree = "<group>"; };
-		AAD3815BB375104468A1520F /* ResultsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsCollection.h; path = Models/ResultsCollection.h; sourceTree = "<group>"; };
-		AA4AE13F6886144E82BA9265 /* ResultsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsCollection.m; path = Models/ResultsCollection.m; sourceTree = "<group>"; };
-		AAB79626CC7F0243BD8C1DA6 /* CollectionSearchRecords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionSearchRecords.h; path = Models/CollectionSearchRecords.h; sourceTree = "<group>"; };
-		AADBDC0F6B05374667B31EE9 /* CollectionSearchRecords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionSearchRecords.m; path = Models/CollectionSearchRecords.m; sourceTree = "<group>"; };
-		AA587643878B6C43CD9D1A26 /* SearchRecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchRecordController.h; path = Controllers/SearchRecordController.h; sourceTree = "<group>"; };
-		AA09C3EF78E3D64E59AE79D5 /* SearchRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchRecordController.m; path = Controllers/SearchRecordController.m; sourceTree = "<group>"; };
-		AA5E5760BCB03A4C788ED555 /* MetadataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetadataController.h; path = Controllers/MetadataController.h; sourceTree = "<group>"; };
-		AA9FEE9D2E239949EE985AF0 /* MetadataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetadataController.m; path = Controllers/MetadataController.m; sourceTree = "<group>"; };
-		AA4E0437B336F249AD9EC697 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA9B68B58725C5422D80A43B /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libJSONModel.a"; path = "libJSONModel.a"; sourceTree = "<group>"; };
-		AA95A3430FAC334E439787CE /* libUnirest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libUnirest.a"; path = "libUnirest.a"; sourceTree = "<group>"; };
-        AABFF68F12AC3548978DA4FE /* IHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHttpClient.h; path = Http/Client/IHttpClient.h; sourceTree = "<group>"; };
-		AACDCB71E403184BAAB0633E /* UnirestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnirestClient.h; path = Http/Client/UnirestClient.h; sourceTree = "<group>"; };
-		AA4A506F2EDDBE46F6B92921 /* UnirestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnirestClient.m; path = Http/Client/UnirestClient.m; sourceTree = "<group>"; };
-		AA977110F3F4E44A3C90FE4F /* HttpContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpContext.h; path = Http/Client/HttpContext.h; sourceTree = "<group>"; };
-		AA689811C8CD2049898EBBA1 /* HttpContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc;name = HttpContext.m;  path = Http/Client/HttpContext.m; sourceTree = "<group>"; };
+        AA81FCAF529EE745E3B7B0A0 /* libDigitalNewzealandRR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDigitalNewzealandRR.a; sourceTree = BUILT_PRODUCTS_DIR; };
+        AA6E0AF2268DC247A5A6E530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+        AA0E465DEBAFCA434C804CF6 /* DigitalNewzealandRR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DigitalNewzealandRR-Prefix.pch"; sourceTree = "<group>"; };
+        AAE3DE7555182149659AAAF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+        AAD467C02066394ECC80B994 /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
+        AAF83D1EA18C0944FBBF7EE0 /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };		
+        AA527EAD0961304AF0B91908 /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
+        AA17D2112FBCFD42F0A233D6 /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
+        AA7A197FAA2EC24E35B68A5B /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+        AAAD2AD287DE4C4357BA536F /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		AAE85A984B8F5C4B188DAE3E /* SearchRecordInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchRecordInput.h; path = Models/SearchRecordInput.h; sourceTree = "<group>"; };
+		AA99DC171A87844863807915 /* SearchRecordInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchRecordInput.m; path = Models/SearchRecordInput.m; sourceTree = "<group>"; };
+		AA663A72D382E74DA0BE5A4A /* GetMetadataInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetMetadataInput.h; path = Models/GetMetadataInput.h; sourceTree = "<group>"; };
+		AADD1F5BB515E24663B0FE29 /* GetMetadataInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetMetadataInput.m; path = Models/GetMetadataInput.m; sourceTree = "<group>"; };
+		AA62237C8F61394EBFA9E46F /* ResultsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsCollection.h; path = Models/ResultsCollection.h; sourceTree = "<group>"; };
+		AAB98F30BC20994B099C6173 /* ResultsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsCollection.m; path = Models/ResultsCollection.m; sourceTree = "<group>"; };
+		AAD9A8951BD4454D24B1C1F2 /* CollectionSearchRecords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionSearchRecords.h; path = Models/CollectionSearchRecords.h; sourceTree = "<group>"; };
+		AAA861623ACF71489A8FC72B /* CollectionSearchRecords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionSearchRecords.m; path = Models/CollectionSearchRecords.m; sourceTree = "<group>"; };
+		AA3AED8EF32BF8470BA945CD /* SearchRecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchRecordController.h; path = Controllers/SearchRecordController.h; sourceTree = "<group>"; };
+		AA59F1296FA7D04557ADD620 /* SearchRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchRecordController.m; path = Controllers/SearchRecordController.m; sourceTree = "<group>"; };
+		AAF0A301CE57D14C1B96B3E2 /* MetadataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetadataController.h; path = Controllers/MetadataController.h; sourceTree = "<group>"; };
+		AA670249FF2E874818B01D11 /* MetadataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetadataController.m; path = Controllers/MetadataController.m; sourceTree = "<group>"; };
+		AAA13766E4527943B3BE0A9C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEA851F0CB61345A290C75B /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libJSONModel.a"; path = "libJSONModel.a"; sourceTree = "<group>"; };
+		AAA3B65A2777AA4BA0B9EF10 /* libUnirest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libUnirest.a"; path = "libUnirest.a"; sourceTree = "<group>"; };
+        AA7CA9A5843AFC4730A7267A /* IHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHttpClient.h; path = Http/Client/IHttpClient.h; sourceTree = "<group>"; };
+		AAEBD8D4FC8A8544F7B107C5 /* UnirestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnirestClient.h; path = Http/Client/UnirestClient.h; sourceTree = "<group>"; };
+		AA8A0B48B980524023A82B6E /* UnirestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnirestClient.m; path = Http/Client/UnirestClient.m; sourceTree = "<group>"; };
+		AA6AD8E22CE83E4B8A9403A2 /* HttpContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpContext.h; path = Http/Client/HttpContext.h; sourceTree = "<group>"; };
+		AACD032C87D6B1403D8A6D7A /* HttpContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc;name = HttpContext.m;  path = Http/Client/HttpContext.m; sourceTree = "<group>"; };
 
-		AA54B79D885D104D0BB26F62 /* HttpBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpBodyRequest.h; path = Http/Request/HttpBodyRequest.h; sourceTree = "<group>"; };
-		AADB3F23AD0CF947329311CF /* HttpBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpBodyRequest.m; path = Http/Request/HttpBodyRequest.m; sourceTree = "<group>"; };
-		AAB8E8697C388A4767A2059F /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpMethod.h; path = Http/Request/HttpMethod.h; sourceTree = "<group>"; };
-		AA99BF28366712418386A433 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = Http/Request/HttpRequest.h; sourceTree = "<group>"; };
-		AA0A3B030F05A4472B8D5B5C /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequest.m; path = Http/Request/HttpRequest.m; sourceTree = "<group>"; };
-		AA5131B5EAAA984CE6883CF1 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = Http/Response/HttpResponse.h; sourceTree = "<group>"; };
-		AA12B901710C6448C08DD6E4 /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = Http/Response/HttpResponse.m; sourceTree = "<group>"; };
-		AA0B80213A93244ED3BC5BD4 /* HttpStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpStringResponse.h; path = Http/Response/HttpStringResponse.h; sourceTree = "<group>"; };
-		AA766DB3DFC7C04C52862689 /* HttpStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpStringResponse.m; path = Http/Response/HttpStringResponse.m; sourceTree = "<group>"; };
-		AA4D7380FAFF0F48A5AA302C /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Controllers/BaseController.h; sourceTree = "<group>"; };
-		AAEF56D815D6034F938FE0EF /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
+		AA471B59CB7EBE4961A8EA40 /* HttpBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpBodyRequest.h; path = Http/Request/HttpBodyRequest.h; sourceTree = "<group>"; };
+		AAA68B810E6AF74DBD8EB252 /* HttpBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpBodyRequest.m; path = Http/Request/HttpBodyRequest.m; sourceTree = "<group>"; };
+		AA2F4DE29DFF0A4E22AB96E9 /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpMethod.h; path = Http/Request/HttpMethod.h; sourceTree = "<group>"; };
+		AAD981F4B4BA8549A6A173C0 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = Http/Request/HttpRequest.h; sourceTree = "<group>"; };
+		AA038543B87D054787926D6E /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequest.m; path = Http/Request/HttpRequest.m; sourceTree = "<group>"; };
+		AAD0AA2170523C4EC5B11CC3 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = Http/Response/HttpResponse.h; sourceTree = "<group>"; };
+		AA093903902841406D9848DE /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = Http/Response/HttpResponse.m; sourceTree = "<group>"; };
+		AA0386216A555242C9AEA069 /* HttpStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpStringResponse.h; path = Http/Response/HttpStringResponse.h; sourceTree = "<group>"; };
+		AA64B8C2B1694445828A962B /* HttpStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpStringResponse.m; path = Http/Response/HttpStringResponse.m; sourceTree = "<group>"; };
+		AA74343CBB2F70429EA437E4 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Controllers/BaseController.h; sourceTree = "<group>"; };
+		AAB797A2526A66495389DD5F /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        AA5F5EFA85335240E7A7EDE1 /* Frameworks */ = {
+        AAE98E8600A71C4C12A21FB2 /* Frameworks */ = {
             isa = PBXFrameworksBuildPhase;
             buildActionMask = 2147483647;
             files = (
-                AA03337C3A19B54784BDF5AA /* Foundation.framework in Frameworks */,
-				AAA6F7389780D24864A4C2B2 /* libUnirest.a in Frameworks */,				
-				AA74B08891CF7B4707A7E2A3 /* libJSONModel.a in Frameworks */,				
-				AA335E7CDAA7BE4FB78C4370 /* libPods.a in Frameworks */,
+                AAC689F46754DB44A98A3309 /* Foundation.framework in Frameworks */,
+				AA0D0A003448FC4FF29BD1EC /* libUnirest.a in Frameworks */,				
+				AA029BE43A4F3D424EBA6DF5 /* libJSONModel.a in Frameworks */,				
+				AAD52BC42DC09346CA805633 /* libPods.a in Frameworks */,
             );
             runOnlyForDeploymentPostprocessing = 0;
         };
-        AA2D2D613172FF4FEAB84FF8 /* Frameworks */ = {
+        AA2DE65AE3B00E4AE9A0AAD1 /* Frameworks */ = {
             isa = PBXFrameworksBuildPhase;
             buildActionMask = 2147483647;
             files = (
-                AACDA44555A2394075AB9388 /* UIKit.framework in Frameworks */,
-                AAAEFBF5B92BAE44EF9615FB /* libDigitalNewzealandRR.a in Frameworks */,
-                AA9B54C24451E04DBA98B53D /* Foundation.framework in Frameworks */,
+                AA864A9B171FA340A4B8AC65 /* UIKit.framework in Frameworks */,
+                AA956C468EBD7F491E83DDB2 /* libDigitalNewzealandRR.a in Frameworks */,
+                AA1BE9865A7B084348B1D3F6 /* Foundation.framework in Frameworks */,
             );
             runOnlyForDeploymentPostprocessing = 0;
         };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        AAE6CE9A697A234F64B25B69 = {
+        AA6B536CC5B30A406398B1D7 = {
             isa = PBXGroup;
             children = (
-                AA7E9FFC5BC70F468BA5032B /* DigitalNewzealandRR */,
-                AA445EA8C7515F42D3B930A5 /* Frameworks */,
-                AA3FB9F24779C24227B67992 /* Products */,
+                AA38F585F4BA0D49A8A7F7A3 /* DigitalNewzealandRR */,
+                AA989A1BE813E04F8494D6CA /* Frameworks */,
+                AAF3BBB16A3F214357908FED /* Products */,
             );
             sourceTree = "<group>";
         };
-        AA3FB9F24779C24227B67992 /* Products */ = {
+        AAF3BBB16A3F214357908FED /* Products */ = {
             isa = PBXGroup;
             children = (
-                AACFB2A8D330364CCC950336 /* libDigitalNewzealandRR.a */,
+                AA81FCAF529EE745E3B7B0A0 /* libDigitalNewzealandRR.a */,
             );
             name = Products;
             sourceTree = "<group>";
         };
-        AA445EA8C7515F42D3B930A5 /* Frameworks */ = {
+        AA989A1BE813E04F8494D6CA /* Frameworks */ = {
             isa = PBXGroup;
             children = (
-				AA95A3430FAC334E439787CE /* libUnirest.a */,
-				AA9B68B58725C5422D80A43B /* libJSONModel.a */,
-				AA4E0437B336F249AD9EC697 /* libPods.a */,
-                AA768B47AD77914FDA8A33E2 /* Foundation.framework */,
-                AAA4ECFD8E9DDC49F6934107 /* UIKit.framework */,
+				AAA3B65A2777AA4BA0B9EF10 /* libUnirest.a */,
+				AAEA851F0CB61345A290C75B /* libJSONModel.a */,
+				AAA13766E4527943B3BE0A9C /* libPods.a */,
+                AA6E0AF2268DC247A5A6E530 /* Foundation.framework */,
+                AAE3DE7555182149659AAAF9 /* UIKit.framework */,
             );
             name = Frameworks;
             sourceTree = "<group>";
         };
-        AA7E9FFC5BC70F468BA5032B /* DigitalNewzealandRR */ = {
+        AA38F585F4BA0D49A8A7F7A3 /* DigitalNewzealandRR */ = {
             isa = PBXGroup;
             children = (
-                AAA0C791179DF342B7A707D5 /* Models */,
-                AA96903674CB0747E8ADBF0F /* Http */,
-                AA028587CA08B44FEA9C4538 /* Controllers */,
-                AA070629411460458CB1B630 /* Supporting Files */,
-                AAC7103E3EE6CC4BA3AF27BD /* APIHelper.m */,
-                AAE577B7DAE9AD471FB41541 /* APIHelper.h */,
-                AABC3ADFDC5065444EA0B064 /* APIError.m */,
-                AA3BC5853FE2C24C8EBE4112 /* APIError.h */,
-                AA0C941311A1FC449D932FCD /* Configuration.m */,
-                AABBA40691F1F34494802B7A /* Configuration.h */,
+                AA9DA7E02966E04AAB82CE88 /* Models */,
+                AA07C1AC17C7D248FEAC1E8C /* Http */,
+                AA5935D0D5168242A2A1A6E3 /* Controllers */,
+                AA0CD2869A71B540948270EC /* Supporting Files */,
+                AAD467C02066394ECC80B994 /* APIHelper.m */,
+                AAF83D1EA18C0944FBBF7EE0 /* APIHelper.h */,
+                AA527EAD0961304AF0B91908 /* APIError.m */,
+                AA17D2112FBCFD42F0A233D6 /* APIError.h */,
+                AA7A197FAA2EC24E35B68A5B /* Configuration.m */,
+                AAAD2AD287DE4C4357BA536F /* Configuration.h */,
             );
             path = DigitalNewzealandRR;
             sourceTree = "<group>";
         };
-        AA070629411460458CB1B630 /* Supporting Files */ = {
+        AA0CD2869A71B540948270EC /* Supporting Files */ = {
             isa = PBXGroup;
             children = (
-                AAC6EEEAB8647F4227B70244 /* DigitalNewzealandRR-Prefix.pch */,
+                AA0E465DEBAFCA434C804CF6 /* DigitalNewzealandRR-Prefix.pch */,
             );
             name = "Supporting Files";
             sourceTree = "<group>";
         };
-        AA028587CA08B44FEA9C4538 /* Controllers */ = {
+        AA5935D0D5168242A2A1A6E3 /* Controllers */ = {
             isa = PBXGroup;
             children = (
-				AA4D7380FAFF0F48A5AA302C /* BaseController.h */,
-				AAEF56D815D6034F938FE0EF /* BaseController.m */,
-				AA587643878B6C43CD9D1A26 /* SearchRecordController.h */,
-				AA09C3EF78E3D64E59AE79D5 /* SearchRecordController.m */,
-				AA5E5760BCB03A4C788ED555 /* MetadataController.h */,
-				AA9FEE9D2E239949EE985AF0 /* MetadataController.m */,
+				AA74343CBB2F70429EA437E4 /* BaseController.h */,
+				AAB797A2526A66495389DD5F /* BaseController.m */,
+				AA3AED8EF32BF8470BA945CD /* SearchRecordController.h */,
+				AA59F1296FA7D04557ADD620 /* SearchRecordController.m */,
+				AAF0A301CE57D14C1B96B3E2 /* MetadataController.h */,
+				AA670249FF2E874818B01D11 /* MetadataController.m */,
             );
             name = Controllers;
             sourceTree = "<group>";
         };
-		AA07D745A7B65E4CA4930C80 /* Client */ = {
+		AA98735C51CD4C4D499D24DE /* Client */ = {
 			isa = PBXGroup;
 			children = (
-				AABFF68F12AC3548978DA4FE /* IHttpClient.h */,
-				AACDCB71E403184BAAB0633E /* UnirestClient.h */,
-				AA4A506F2EDDBE46F6B92921 /* UnirestClient.m */,
-				AA977110F3F4E44A3C90FE4F /* HttpContext.h */,
-				AA689811C8CD2049898EBBA1 /* HttpContext.m */,
+				AA7CA9A5843AFC4730A7267A /* IHttpClient.h */,
+				AAEBD8D4FC8A8544F7B107C5 /* UnirestClient.h */,
+				AA8A0B48B980524023A82B6E /* UnirestClient.m */,
+				AA6AD8E22CE83E4B8A9403A2 /* HttpContext.h */,
+				AACD032C87D6B1403D8A6D7A /* HttpContext.m */,
 			);
 			name = Client;
 			sourceTree = "<group>";
 		};
-		AA96903674CB0747E8ADBF0F /* Http */ = {
+		AA07C1AC17C7D248FEAC1E8C /* Http */ = {
 			isa = PBXGroup;
 			children = (
-				AA756187742A454E9EAE9058 /* Request */,
-				AA07D745A7B65E4CA4930C80 /* Client */,
-				AA550BD0830CCA438DB0B6B4 /* Response */,
+				AA6514881767134DC58887C0 /* Request */,
+				AA98735C51CD4C4D499D24DE /* Client */,
+				AAF364E141A0D6458BB75E9C /* Response */,
 			);
 			name = Http;
 			sourceTree = "<group>";
 		};
-		AA756187742A454E9EAE9058 /* Request */ = {
+		AA6514881767134DC58887C0 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				AA54B79D885D104D0BB26F62 /* HttpBodyRequest.h */,
-				AADB3F23AD0CF947329311CF /* HttpBodyRequest.m */,
-				AAB8E8697C388A4767A2059F /* HttpMethod.h */,
-				AA99BF28366712418386A433 /* HttpRequest.h */,
-				AA0A3B030F05A4472B8D5B5C /* HttpRequest.m */,
+				AA471B59CB7EBE4961A8EA40 /* HttpBodyRequest.h */,
+				AAA68B810E6AF74DBD8EB252 /* HttpBodyRequest.m */,
+				AA2F4DE29DFF0A4E22AB96E9 /* HttpMethod.h */,
+				AAD981F4B4BA8549A6A173C0 /* HttpRequest.h */,
+				AA038543B87D054787926D6E /* HttpRequest.m */,
 			);
 			name = Request;
 			sourceTree = "<group>";
 		};
-		AA550BD0830CCA438DB0B6B4 /* Response */ = {
+		AAF364E141A0D6458BB75E9C /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				AA5131B5EAAA984CE6883CF1 /* HttpResponse.h */,
-				AA12B901710C6448C08DD6E4 /* HttpResponse.m */,
-				AA0B80213A93244ED3BC5BD4 /* HttpStringResponse.h */,
-				AA766DB3DFC7C04C52862689 /* HttpStringResponse.m */,
+				AAD0AA2170523C4EC5B11CC3 /* HttpResponse.h */,
+				AA093903902841406D9848DE /* HttpResponse.m */,
+				AA0386216A555242C9AEA069 /* HttpStringResponse.h */,
+				AA64B8C2B1694445828A962B /* HttpStringResponse.m */,
 			);
 			name = Response;
 			sourceTree = "<group>";
 		};
-        AAA0C791179DF342B7A707D5 /* Models */ = {
+        AA9DA7E02966E04AAB82CE88 /* Models */ = {
             isa = PBXGroup;
             children = (
-				AA9DC079D0914D4663B25C34 /* SearchRecordInput.h */,
-				AA18F287F7622543E9B95F17 /* SearchRecordInput.m */,
-				AA36B2822E69324311B6B9E9 /* GetMetadataInput.h */,
-				AA391442A38C5442C69C9C01 /* GetMetadataInput.m */,
-				AAD3815BB375104468A1520F /* ResultsCollection.h */,
-				AA4AE13F6886144E82BA9265 /* ResultsCollection.m */,
-				AAB79626CC7F0243BD8C1DA6 /* CollectionSearchRecords.h */,
-				AADBDC0F6B05374667B31EE9 /* CollectionSearchRecords.m */,
+				AAE85A984B8F5C4B188DAE3E /* SearchRecordInput.h */,
+				AA99DC171A87844863807915 /* SearchRecordInput.m */,
+				AA663A72D382E74DA0BE5A4A /* GetMetadataInput.h */,
+				AADD1F5BB515E24663B0FE29 /* GetMetadataInput.m */,
+				AA62237C8F61394EBFA9E46F /* ResultsCollection.h */,
+				AAB98F30BC20994B099C6173 /* ResultsCollection.m */,
+				AAD9A8951BD4454D24B1C1F2 /* CollectionSearchRecords.h */,
+				AAA861623ACF71489A8FC72B /* CollectionSearchRecords.m */,
             );
             name = Models;
             sourceTree = "<group>";
@@ -295,44 +295,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AAE3EA941E2A2640709EE672 /* Headers */ = {
+		AA1F58242A20854F99B2E194 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-		AA021E202C6508428E80D2AE /* SearchRecordInput.h in Headers */,
-		AA26A86C1722EA4EA294F9F9 /* GetMetadataInput.h in Headers */,
-		AA852EAA9FB354412DBC606B /* ResultsCollection.h in Headers */,
-		AAB5420A294AF147F6819771 /* CollectionSearchRecords.h in Headers */,
-		AA10863B94457B416FAF608B /* SearchRecordController.h in Headers */,
-		AAFC4B6E83E2E14ED7BA5C39 /* MetadataController.h in Headers */,
-		AA2DB7B9639A444099829E60 /* APIHelper.h in Headers */,
-		AA01D6A783FA6B41EB942B80 /* Configuration.h in Headers */,
-		AAEF396DBEF58A4FA5961E26 /* APIError.h in Headers */,
-		AA0296401D190A4E849CF110 /* HttpBodyRequest.h in Headers */,
-		AAE453144A23EB4F0BA8A1BF /* HttpRequest.h in Headers */,
-		AA9A4D54132C544D51A0E3FB /* IHttpClient.h in Headers */,
-		AAEA2898E1B2BB4F8B83907D /* HttpContext.h in Headers */,
+		AAFBA7DC1148C44CFF9E361A /* SearchRecordInput.h in Headers */,
+		AA4526352644114E1DACAFD5 /* GetMetadataInput.h in Headers */,
+		AA4ABA1F654AE74F6B810478 /* ResultsCollection.h in Headers */,
+		AAE954C5F1EF7D47AEB2DBFD /* CollectionSearchRecords.h in Headers */,
+		AA065D90424D244498894D91 /* SearchRecordController.h in Headers */,
+		AA47B6B5562BF24845942F33 /* MetadataController.h in Headers */,
+		AAF5F518F9E14D4821934AF3 /* APIHelper.h in Headers */,
+		AAF7EEAB2D494F4E2EB9EEC7 /* Configuration.h in Headers */,
+		AAF0D5BD13CACD4F26B5EEBB /* APIError.h in Headers */,
+		AA35BCA10FA694448C8D105C /* HttpBodyRequest.h in Headers */,
+		AA8ABE96F4266845B8A595B6 /* HttpRequest.h in Headers */,
+		AAC560BCDE4B074BD595F3D5 /* IHttpClient.h in Headers */,
+		AA688EA34E80A6400CA54A60 /* HttpContext.h in Headers */,
 
-		AA717ABE725E604DF788CA4A /* BaseController.h in Headers */,
-		AA433DE57D5B5F4ED9859B77 /* HttpResponse.h in Headers */,
-		AA7A475F5F1D8241529894DD /* UnirestClient.h in Headers */,
-		AA5266CD75BF92410D9B3B8C /* HttpStringResponse.h in Headers */,
-		AADDCDD80123B4447C9CDF5B /* HttpMethod.h in Headers */,
+		AA32064A84D1F5437DA589CA /* BaseController.h in Headers */,
+		AAA2047354D15F48B1B984E6 /* HttpResponse.h in Headers */,
+		AA50A1FC2645DC4334B6A3BC /* UnirestClient.h in Headers */,
+		AA60A541B501B143598BAE45 /* HttpStringResponse.h in Headers */,
+		AA42A758CA4A674434B3C010 /* HttpMethod.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-        AAE17DE5AF9DA64BFE8540A7 /* DigitalNewzealandRR */ = {
+        AA1966C4B7671B4AB6A5BC19 /* DigitalNewzealandRR */ = {
             isa = PBXNativeTarget;
-            buildConfigurationList = AA43E2F506108F48358A3F8C /* Build configuration list for PBXNativeTarget "DigitalNewzealandRR" */;
+            buildConfigurationList = AACD2B2023099A4BF196DE73 /* Build configuration list for PBXNativeTarget "DigitalNewzealandRR" */;
             buildPhases = (
-                AA5D23AC78B7124DD589B2EB /* Sources */,
-                AA5F5EFA85335240E7A7EDE1 /* Frameworks */,
-                AADB7E43DCAA62401AA64353 /* CopyFiles */,
-				AAE3EA941E2A2640709EE672 /* Headers */,
-				AA7A551A8911BF409594DAC1 /* Build Framework */,
+                AA1E433AAC98D942D8B90165 /* Sources */,
+                AAE98E8600A71C4C12A21FB2 /* Frameworks */,
+                AA6C2AE549536F4A07AD45F5 /* CopyFiles */,
+				AA1F58242A20854F99B2E194 /* Headers */,
+				AA0A5EB98C61854344B84484 /* Build Framework */,
             );
             buildRules = (
             );
@@ -340,38 +340,38 @@
             );
             name = DigitalNewzealandRR;
             productName = DigitalNewzealandRR;
-            productReference = AACFB2A8D330364CCC950336 /* libDigitalNewzealandRR.a */;
+            productReference = AA81FCAF529EE745E3B7B0A0 /* libDigitalNewzealandRR.a */;
             productType = "com.apple.product-type.library.static";
         };		
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        AAAE3FCD3CDE5346C0B9E5F9 /* Project object */ = {
+        AAC6E8C328D32949B3B88911 /* Project object */ = {
             isa = PBXProject;
             attributes = {
                 LastUpgradeCheck = 0500;
                 ORGANIZATIONNAME = APIMatic;
             };
-            buildConfigurationList = AA4295E520938B4C5AB56E28 /* Build configuration list for PBXProject "DigitalNewzealandRR" */;
+            buildConfigurationList = AA96FDDB66045B4290B69330 /* Build configuration list for PBXProject "DigitalNewzealandRR" */;
             compatibilityVersion = "Xcode 3.2";
             developmentRegion = English;
             hasScannedForEncodings = 0;
             knownRegions = (
                 en,
             );
-            mainGroup = AAE6CE9A697A234F64B25B69;
-            productRefGroup = AA3FB9F24779C24227B67992 /* Products */;
+            mainGroup = AA6B536CC5B30A406398B1D7;
+            productRefGroup = AAF3BBB16A3F214357908FED /* Products */;
             projectDirPath = "";
             projectRoot = "";
             targets = (
-                AAE17DE5AF9DA64BFE8540A7 /* DigitalNewzealandRR */,
-				AAEC15EAD7C0FE4A83A6BA9B /* Framework */,
+                AA1966C4B7671B4AB6A5BC19 /* DigitalNewzealandRR */,
+				AAF7B1B91FD070478B9C83D8 /* Framework */,
             );
         };
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AA7A551A8911BF409594DAC1 /* Build Framework */ = {
+		AA0A5EB98C61854344B84484 /* Build Framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,7 +385,7 @@
 			shellPath = /bin/sh;
 			shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/JSONModel/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/Unirest/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
 		};
-		AA23E52E818F854F068E29F8 /* MultiBuild Framework */ = {
+		AAA82E0C34C69145CBBF47D1 /* MultiBuild Framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,60 +402,60 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        AA5D23AC78B7124DD589B2EB /* Sources */ = {
+        AA1E433AAC98D942D8B90165 /* Sources */ = {
             isa = PBXSourcesBuildPhase;
             buildActionMask = 2147483647;
             files = (
-                AAD0831B0907B94395A9B292 /* APIHelper.m in Sources */,
-                AA5F27DDF19A834EE38D7317 /* APIError.m in Sources */,
-                AA86C0108619EA4062BB293D /* Configuration.m in Sources */,
-				AA2AF3A24B4DF949AA8CD391 /* SearchRecordInput.m in Sources */,
-				AAB7821CD1693E4B33A2537B /* GetMetadataInput.m in Sources */,
-				AA5AF82B94C43D44A8BACAA6 /* ResultsCollection.m in Sources */,
-				AAB3986AE63DF1477DBFD437 /* CollectionSearchRecords.m in Sources */,
-				AA9AF0E1574CF343E18579CE /* SearchRecordController.m in Sources */,
-				AA9F6CC30E8EEC498A83DCF6 /* MetadataController.m in Sources */,
-				 AA8B08871A145A406DA36F10 /* HttpBodyRequest.m in Sources */,
-				 AA640383271ABE453CA1EEA0 /* BaseController.m in Sources */,
-				 AA3C42C41968234ACB8C52B5 /* UnirestClient.m in Sources */,
-				 AA0298CF53D9C1411F80AEA1 /* UnirestClient.m in Sources */,
-				 AA15A8247E48CA465AB0CE71 /* HttpResponse.m in Sources */,
-				 AA4F095AAC3B1F4FDBA9883D /* HttpStringResponse.m in Sources */,
-				 AAF75161F76D534064B221C5 /* HttpRequest.m in Sources */,
+                AA1467AFDAB6154D0E8A0CAC /* APIHelper.m in Sources */,
+                AA179AD3FAC466491D9B603C /* APIError.m in Sources */,
+                AA23801E866FB34CBAB5E0C2 /* Configuration.m in Sources */,
+				AA6786FC8391E34BFA8D9108 /* SearchRecordInput.m in Sources */,
+				AAC55B140997C0409AA7B516 /* GetMetadataInput.m in Sources */,
+				AAEA5ED36BD0CD4CCC8606C9 /* ResultsCollection.m in Sources */,
+				AA953D28BE9E304CC2A1A136 /* CollectionSearchRecords.m in Sources */,
+				AAFF0429A01D504EC6A611C8 /* SearchRecordController.m in Sources */,
+				AAD9858EF285CB4E5D82F18C /* MetadataController.m in Sources */,
+				 AA9798433B20C94F1E97EF2F /* HttpBodyRequest.m in Sources */,
+				 AA25596FB905E54D1F8C98D6 /* BaseController.m in Sources */,
+				 AA403BC588C7BE45AB871BFF /* UnirestClient.m in Sources */,
+				 AAA153D4B02F964BFFAD03C2 /* UnirestClient.m in Sources */,
+				 AA5470019E363447F1AA1747 /* HttpResponse.m in Sources */,
+				 AADCBB53092E8844A094B02C /* HttpStringResponse.m in Sources */,
+				 AA74F29EBB57BF4FF49203F7 /* HttpRequest.m in Sources */,
             );
             runOnlyForDeploymentPostprocessing = 0;
         };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AA00CBC8E8A45A42EEAB46C1 /* PBXTargetDependency */ = {
+		AAF4B7A6C9DF274C3B9BE561 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAE17DE5AF9DA64BFE8540A7 /* DigitalNewzealandRR */;
-			targetProxy = AA79F5F6B44233442FAE25B9 /* PBXContainerItemProxy */;
+			target = AA1966C4B7671B4AB6A5BC19 /* DigitalNewzealandRR */;
+			targetProxy = AA35E12FD3D7C34967AC5E21 /* PBXContainerItemProxy */;
 		};
-        AA3B234E288B1E468BA7FACD /* PBXTargetDependency */ = {
+        AA4982A509D78146F1866AC5 /* PBXTargetDependency */ = {
             isa = PBXTargetDependency;
-            target = AAE17DE5AF9DA64BFE8540A7 /* DigitalNewzealandRR */;
-            targetProxy = AA79F5F6B44233442FAE25B9 /* PBXContainerItemProxy */;
+            target = AA1966C4B7671B4AB6A5BC19 /* DigitalNewzealandRR */;
+            targetProxy = AA35E12FD3D7C34967AC5E21 /* PBXContainerItemProxy */;
         };
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AAC5CF5DBEAEAC4EFBA0CDE4 /* Debug */ = {
+		AAE977DCC4B6FB4B85AF2EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		AA5077E8D720684F0EAD356D /* Release */ = {
+		AA74083319F68E46948A9402 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-        AAA374EB599150433D882A6A /* Debug */ = {
+        AA5E977971EDEF4C9489A4D9 /* Debug */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 ALWAYS_SEARCH_USER_PATHS = NO;
@@ -493,7 +493,7 @@
             };
             name = Debug;
         };
-        AA2BD010BB870F40D691662C /* Release */ = {
+        AA5796E77E21914CA087CE65 /* Release */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 ALWAYS_SEARCH_USER_PATHS = NO;
@@ -525,7 +525,7 @@
             };
             name = Release;
         };
-        AABCF8A31F47214D5EAFE3A5 /* Debug */ = {
+        AACFCAFEC2801D4CB085E1E5 /* Debug */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 DEAD_CODE_STRIPPING = NO;
@@ -541,7 +541,7 @@
             };
             name = Debug;
         };
-        AA530C9FA65AF14B2F9DD939 /* Release */ = {
+        AAD535F9F9394144668D3E41 /* Release */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -561,33 +561,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA0C6493D94F6548AAB05E0C /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+		AAF15963EF1C3B44DE874FF9 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAC5CF5DBEAEAC4EFBA0CDE4 /* Debug */,
-				AA5077E8D720684F0EAD356D /* Release */,
+				AAE977DCC4B6FB4B85AF2EDE /* Debug */,
+				AA74083319F68E46948A9402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-        AA4295E520938B4C5AB56E28 /* Build configuration list for PBXProject "DigitalNewzealandRR" */ = {
+        AA96FDDB66045B4290B69330 /* Build configuration list for PBXProject "DigitalNewzealandRR" */ = {
             isa = XCConfigurationList;
             buildConfigurations = (
-                AAA374EB599150433D882A6A /* Debug */,
-                AA2BD010BB870F40D691662C /* Release */,
+                AA5E977971EDEF4C9489A4D9 /* Debug */,
+                AA5796E77E21914CA087CE65 /* Release */,
             );
             defaultConfigurationIsVisible = 0;
             defaultConfigurationName = Release;
         };
-        AA43E2F506108F48358A3F8C /* Build configuration list for PBXNativeTarget "DigitalNewzealandRR" */ = {
+        AACD2B2023099A4BF196DE73 /* Build configuration list for PBXNativeTarget "DigitalNewzealandRR" */ = {
             isa = XCConfigurationList;
             buildConfigurations = (
-                AABCF8A31F47214D5EAFE3A5 /* Debug */,
-                AA530C9FA65AF14B2F9DD939 /* Release */,
+                AACFCAFEC2801D4CB085E1E5 /* Debug */,
+                AAD535F9F9394144668D3E41 /* Release */,
             );
             defaultConfigurationIsVisible = 0;
             defaultConfigurationName = Release;
         };
 /* End XCConfigurationList section */
     };
-    rootObject = AAAE3FCD3CDE5346C0B9E5F9 /* Project object */;
+    rootObject = AAC6E8C328D32949B3B88911 /* Project object */;
 }
